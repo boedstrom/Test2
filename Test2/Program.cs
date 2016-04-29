@@ -12,6 +12,15 @@ namespace Test2
         {
             Console.WriteLine("Morsning Github!");
             Console.WriteLine("and Goodbye");
+            Greeter.Friday();
+        }
+    }
+
+    static class Greeter
+    {
+        public static void Friday()
+        {
+            Console.WriteLine("TGIF!!!");
         }
     }
 }
